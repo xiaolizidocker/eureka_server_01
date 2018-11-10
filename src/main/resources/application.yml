@@ -2,13 +2,13 @@ spring:
    application:
       name: eureka_server_02
 server:
-   port: 8051
+   port: 8050
    
 eureka:
    instance:
       hostname: eureka_server_02
    client:
       serviceUrl:
-         defaultZone: http://127.0.0.1:8050/eureka/
+         defaultZone: http://192.168.0.10:8050/eureka/
       register-with-eureka: false
       fetch-registry: false
