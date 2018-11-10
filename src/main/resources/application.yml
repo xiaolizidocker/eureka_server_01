@@ -9,5 +9,4 @@ eureka:
       hostname: eureka_server_02
    client:
       serviceUrl:
-         defaultZone: http://192.168.0.10:8050/eureka/
-         
+         defaultZone: http://127.0.0.1:8050/eureka/
