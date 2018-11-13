@@ -12,3 +12,5 @@ eureka:
          defaultZone: http://192.168.0.10:8050/eureka/
       register-with-eureka: false
       fetch-registry: false
+   server:
+    enable-self-preservation: false
