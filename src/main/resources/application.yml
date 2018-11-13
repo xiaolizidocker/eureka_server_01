@@ -1,8 +1,14 @@
 spring:
    application:
       name: eureka_server_02
+   security:
+    user:
+      name: eureka
+      password: 123456
+    
 server:
    port: 8050
+   
    
 eureka:
    instance:
