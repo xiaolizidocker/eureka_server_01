@@ -2,8 +2,6 @@ spring:
    application:
       name: eureka_server_02
    security:
-    basic:
-      enabled: true
     user:
       name: eureka
       password: 123456
