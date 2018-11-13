@@ -2,6 +2,8 @@ spring:
    application:
       name: eureka_server_02
    security:
+    basic:
+      enabled: true
     user:
       name: eureka
       password: 123456
@@ -15,7 +17,7 @@ eureka:
       hostname: eureka_server_02
    client:
       serviceUrl:
-         defaultZone: http://192.168.0.10:8050/eureka/
+         defaultZone: eureka:123456@http://192.168.0.10:8050/eureka/
       register-with-eureka: false
       fetch-registry: false
    server:
